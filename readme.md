@@ -1,7 +1,7 @@
 # Advertisments Auctions
 A webpage where the highest bidder gets to choose what message and image is shown in the webpage.
 
-Meant to learn blockchain technologies.
+Meant to learn blockchain technologies, made with Solidity, truffle, ganache, Web3.js, IPFS, and React.js
 
 <img src="./assets/scrsht.png">
 
