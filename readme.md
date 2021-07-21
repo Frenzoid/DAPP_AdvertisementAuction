@@ -2,6 +2,7 @@
 A webpage where the highest bidder gets to choose what message and image is shown in the webpage.
 
 Meant to learn blockchain technologies, made with Solidity, truffle, ganache, Web3.js, IPFS, and React.js
+
 Inspired from this: https://ethhole.com/challenge
 
 <img src="./assets/scrsht.png">
