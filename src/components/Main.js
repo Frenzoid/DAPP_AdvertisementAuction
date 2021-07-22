@@ -64,7 +64,7 @@ class Main extends Component {
                                         type="number"
                                         ref={(input) => { this.bid = input }}
                                         className="form-control ml-auto"
-                                        placeholder="$$$ Bid Ammount in ETH $$$"
+                                        placeholder="$$$ Bid Amount in ETH $$$"
                                         required />
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-block btn-lg">Bid!</button>
