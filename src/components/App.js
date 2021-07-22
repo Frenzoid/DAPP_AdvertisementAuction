@@ -113,19 +113,25 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar account={this.state.account} />
-        {this.state.loading
+      
+        {
+          this.state.loading
           ?
           <div id="loader" className="text-center mt-5">
-            <img src="https://media.tenor.com/images/a742721ea2075bc3956a2ff62c9bfeef/tenor.gif" alt="loading gif" />
-            <p>Loading...</p></div>
+            <img src="https://codemyui.com/wp-content/uploads/2017/11/solid-colour-slide-puzzle-style-loading-animation.gif" alt="loading gif" />
+            <p>Loading...</p>
+          </div>
           :
-          <Main
-            currentBidStatus={this.state.currentBidStatus}
-            captureFile={this.captureFile}
-            submitBid={this.submitBid}
-          />
+          <div>
+            <Navbar account={this.state.account} />
+            <Main
+              currentBidStatus={this.state.currentBidStatus}
+              captureFile={this.captureFile}
+              submitBid={this.submitBid}
+            />
+         </div>
         }
+
       </div>
     );
   }
