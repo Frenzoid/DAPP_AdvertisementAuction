@@ -1,7 +1,7 @@
 {
   "name": "advertisement_auction",
   "version": "0.1.0",
-  "description": "An auctions page where the highets bidder gets to choose what image + message wants the page to display",
+  "description": "An auctions page where the highest bidder gets to choose what image + message wants the page to display",
   "author": "Frenzoid",
   "homepage": ".",
   "dependencies": {
